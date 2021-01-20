@@ -1,0 +1,224 @@
+[
+  {
+    "pollName": "Sleep poll",
+    "questions": [
+      {
+        "answerVariants": null,
+        "issue": "How many hours do you sleep(in general)?"
+      },
+      {
+        "answerVariants": [
+          {
+            "answerText": "1.In the morning"
+          },
+          {
+            "answerText": "2.In the afternoon"
+          },
+          {
+            "answerText": "In the evening"
+          },
+          {
+            "answerText": "4.At night"
+          }
+        ],
+        "issue": "When do you usually wake up?"
+      },
+      {
+        "answerVariants": null,
+        "issue": "Are you satisfied with your sleep?"
+      }
+    ],
+    "results": [
+      {
+        "answers": [
+          {
+            "answerText": "6"
+          },
+          {
+            "answerText": "7"
+          },
+          {
+            "answerText": "yes"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "8"
+          },
+          {
+            "answerText": "6"
+          },
+          {
+            "answerText": "yes"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "8"
+          },
+          {
+            "answerText": "7"
+          },
+          {
+            "answerText": "no"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "9"
+          },
+          {
+            "answerText": "6"
+          },
+          {
+            "answerText": "no"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "6"
+          },
+          {
+            "answerText": "6"
+          },
+          {
+            "answerText": "no"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "7"
+          },
+          {
+            "answerText": "10"
+          },
+          {
+            "answerText": "yes"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "8"
+          },
+          {
+            "answerText": "8"
+          },
+          {
+            "answerText": "yes"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "12"
+          },
+          {
+            "answerText": "10"
+          },
+          {
+            "answerText": "yes"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "5"
+          },
+          {
+            "answerText": "17"
+          },
+          {
+            "answerText": "not actually"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pollName": "Your favourite fizzy drink",
+    "questions": [
+      {
+        "answerVariants": [
+          {
+            "answerText": "1.Coca-Cola"
+          },
+          {
+            "answerText": "2.Fanta"
+          },
+          {
+            "answerText": "3.Pepsi"
+          },
+          {
+            "answerText": "4.7Up"
+          }
+        ],
+        "issue": "Choose your favourite fizzy drink."
+      }
+    ],
+    "results": [
+      {
+        "answers": [
+          {
+            "answerText": "1"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "1"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "1"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "1"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "2"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "3"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "3"
+          }
+        ]
+      }
+    ]
+  }
+]
