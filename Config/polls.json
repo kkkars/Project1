@@ -35,7 +35,7 @@
             "answerText": "6"
           },
           {
-            "answerText": "7"
+            "answerText": "1"
           },
           {
             "answerText": "yes"
@@ -48,7 +48,7 @@
             "answerText": "8"
           },
           {
-            "answerText": "6"
+            "answerText": "1"
           },
           {
             "answerText": "yes"
@@ -61,7 +61,7 @@
             "answerText": "8"
           },
           {
-            "answerText": "7"
+            "answerText": "1"
           },
           {
             "answerText": "no"
@@ -74,7 +74,7 @@
             "answerText": "9"
           },
           {
-            "answerText": "6"
+            "answerText": "1"
           },
           {
             "answerText": "no"
@@ -87,7 +87,7 @@
             "answerText": "6"
           },
           {
-            "answerText": "6"
+            "answerText": "1"
           },
           {
             "answerText": "no"
@@ -100,7 +100,7 @@
             "answerText": "7"
           },
           {
-            "answerText": "10"
+            "answerText": "2"
           },
           {
             "answerText": "yes"
@@ -113,7 +113,7 @@
             "answerText": "8"
           },
           {
-            "answerText": "8"
+            "answerText": "1"
           },
           {
             "answerText": "yes"
@@ -126,7 +126,7 @@
             "answerText": "12"
           },
           {
-            "answerText": "10"
+            "answerText": "2"
           },
           {
             "answerText": "yes"
@@ -139,10 +139,23 @@
             "answerText": "5"
           },
           {
-            "answerText": "17"
+            "answerText": "3"
           },
           {
             "answerText": "not actually"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "10"
+          },
+          {
+            "answerText": "4"
+          },
+          {
+            "answerText": "no"
           }
         ]
       }
@@ -216,6 +229,95 @@
         "answers": [
           {
             "answerText": "3"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "4"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "4"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pollName": "Food",
+    "questions": [
+      {
+        "answerVariants": null,
+        "issue": "How many times a day do you eat?"
+      },
+      {
+        "answerVariants": [
+          {
+            "answerText": "1.Protein"
+          },
+          {
+            "answerText": "2.Fats"
+          },
+          {
+            "answerText": "3.Carbs"
+          }
+        ],
+        "issue": "Which macronutrient do you eat more than others?"
+      },
+      {
+        "answerVariants": null,
+        "issue": "Do you prefer healthy or unhealthy food?"
+      }
+    ],
+    "results": [
+      {
+        "answers": [
+          {
+            "answerText": "3"
+          },
+          {
+            "answerText": "3"
+          },
+          {
+            "answerText": "healthy food"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "4"
+          },
+          {
+            "answerText": "1"
+          },
+          {
+            "answerText": "healthy food"
+          }
+        ]
+      },
+      {
+        "answers": [
+          {
+            "answerText": "5"
+          },
+          {
+            "answerText": "2"
+          },
+          {
+            "answerText": "unhealthy food"
           }
         ]
       }

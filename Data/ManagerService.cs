@@ -68,7 +68,12 @@ namespace Data
         public void DeletePoll(int pollIndex)
             => polls.RemoveAt(pollIndex);
         public void DisplayPollStatistic(int pollIndex)
-            => polls[pollIndex].DisplayAllQuestionStatistic();
+        {
+            if (polls[pollIndex].HasAnyResult())
+                polls[pollIndex].DisplayAllQuestionStatistic();
+            else
+                Console.WriteLine("There in no any result by this poll, so statistics can't be displayed.\n");
+        }
         public bool IsAnyPoll()
         {
             if (polls.Count != 0)

@@ -141,6 +141,9 @@ namespace Data
             for (int i = 0; i < questions.Count(); i++)
             {
                 Console.WriteLine("\n" + questions[i].Issue);
+                if(questions[i].AnswerVariants!=null)
+                    questions[i].ShowAnswerVariants();
+                Console.WriteLine();
                 var allAnswers = results.Select(result => result.Answers[i]).ToList();
                 var uniqueAnswers = allAnswers.Distinct(new AnswerComparer()).ToList();
                 for (int j = 0; j < uniqueAnswers.Count; j++)
@@ -187,6 +190,13 @@ namespace Data
                 return false;
             }
         }
+        public bool HasAnyResult()
+        {
+            if (results.Count != 0)
+                return true;
+            else
+                return false;
+        }
         private void SavePollResult(Result result)
         {
             string path = $@"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\PollResults\result-{DateTime.Now.ToString("HH-mm-dd-MM-yyyy")}.txt";
@@ -199,10 +209,12 @@ namespace Data
 
             using (StreamWriter sw = File.AppendText(path))
             {
-                int counter = 0;
+                int counterQuestion = 0;
+                int index = 0;
                 foreach (var answer in result.Answers)
                 {
-                    sw.WriteLine($"{++counter}. {answer.AnswerText}");
+                    sw.WriteLine($"{++counterQuestion}. {questions[index++].Issue}");
+                    sw.WriteLine($"Your answer: {answer.AnswerText}");
                 }
             }
 
