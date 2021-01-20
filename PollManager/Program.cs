@@ -9,8 +9,6 @@ namespace PollManager
             Menu menu = new Menu();
 
             menu.StartMenu();
-
-            //Console.ReadKey(true);
         }
     }
 }
