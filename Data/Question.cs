@@ -52,8 +52,7 @@ namespace Data
         }
         public void ShowAnswerVariants()
         {
-            int count = 0;
-            AnswerVariants.ForEach(answer => Console.WriteLine($"{++count}. {answer}"));
+            AnswerVariants.ForEach(answer => Console.WriteLine($"{answer}"));
         }
         public bool AnswerVariantIsExist(int answerVariantIndex)
         {
