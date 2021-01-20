@@ -151,7 +151,7 @@ namespace Data
                         if (answer.AnswerText == uniqueAnswers[j].AnswerText)
                             ++amountOfСoincidence;
                     }
-                    Console.WriteLine($"{uniqueAnswers[j]}: {Math.Round((decimal)(amountOfСoincidence / allAnswers.Count) * 100, 2)} (Responses amount: {amountOfСoincidence})");
+                    Console.WriteLine($"{uniqueAnswers[j]}: {Math.Round((decimal)(amountOfСoincidence / allAnswers.Count) * 100, 2)}% (Responses amount: {amountOfСoincidence})");
                 }
             }
         }

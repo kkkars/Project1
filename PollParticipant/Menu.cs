@@ -16,13 +16,11 @@ namespace PollParticipant
             }
             catch (System.Text.Json.JsonException)
             {
-                //итак, если джейсон битый, удален и прочее и не может быть считан, то у нас "проблемы на сервере"
                 Console.WriteLine("Some problems on the server. We apologize for the inconvenience. Please, try again later\n");
                 return;
             }
             catch (Exception e)
             {
-                //этот кетч он для перехвата ошибки, которую кинет вызванный нами метод, а эта ошибка будет выкинута если файл пустой, и значит пулов у нас нету, просто считаем переденный месседж
                 Console.WriteLine($"{e.Message}");
                 return;
             }
@@ -36,7 +34,6 @@ namespace PollParticipant
                     pollService.ShowPolls();
                     int pollIndex = pollService.GetOrderNumber();
                     pollService.StartPoll(pollIndex);
-                    // pollService.UpdateAllPolls();
                 }
                 else
                 if (option == "2")
@@ -52,9 +49,7 @@ namespace PollParticipant
 
         }
         private void ShowMenu()
-        {
-            Console.WriteLine("1.Pass poll\n2.Exit\n");
-        }
+            =>Console.WriteLine("1.Pass poll\n2.Exit\n");
         private string GetOption()
         {
             Console.Write("\nOption: ");
